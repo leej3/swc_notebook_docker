@@ -10,7 +10,7 @@ RUN apt-get update;apt-get install nano\
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /gpfs gs{2..8} /spin1 /data /scratch /fdb /lscratch
+RUN mkdir /gpfs /gs2 /gs3 /gs4 /gs5 /gs6 /gs7 /gs8 /spin1 /data /scratch /fdb /lscratch
 
 USER $NB_USER
 #######
